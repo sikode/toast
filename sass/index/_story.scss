@@ -1,0 +1,98 @@
+#story {
+   padding-top: 90px;
+   padding-bottom: 80px;
+   .story_wrap {
+      @media screen and (max-width: 768px) {
+         padding-bottom: 30px;
+      }
+      @media screen and (max-width:425px) {
+         padding-bottom: 15px;
+      }
+   }
+   .story_header {
+      max-width: 45%;
+      margin: auto;
+      @media screen and (max-width: 768px) {
+         max-width: 62%;
+      }
+      @media screen and (max-width:425px) {
+         max-width: 92%;
+      }
+      .title_section {
+         @media screen and (max-width: 425px) {
+            padding: 0 65px;
+         }
+      }
+      .hr-style {
+         @media screen and (max-width: 425px) {
+            margin-left: 65px;
+         }
+      }
+      .sub_title_section {
+         @media screen and (max-width: 425px) {
+            margin-top: 45px;
+         }
+      }
+      p {
+         letter-spacing: 1px;
+      }
+   }
+   .story_article {
+      background-color: $c-grey;
+      height: 600px;
+      color: #000;
+      .story_text {
+         padding: 20px;
+         h4 {
+            font-size: 20px;
+            margin: 25px 0;
+            text-transform: uppercase;
+         }
+         p {
+            letter-spacing: 1px;
+            margin-bottom: 35px;
+         }
+         span,
+         a {
+            font-style: italic;
+         }
+         .icon,
+         .more {
+            float: right;
+         }
+         .icon {
+            .fa {
+               font-size: 25px;
+               color: $main-blue;
+            }
+         }
+         .more {
+            font-weight: 500;
+            color: $main-blue;
+            &:hover {
+               text-decoration: none;
+            }
+         }
+      }
+   }
+   .btn {
+      display: inline-block;
+      padding: 15px 28px;
+      background-color: $main-blue;
+      color: $w;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-top: 80px;
+      font-weight: 700;
+      border-radius: 100px;
+      transition: all .3s ease-in-out;
+      @media screen and (max-width: 768px) {
+         margin-top: 50px;
+      }
+      &:hover,
+      &:active,
+      &:focus {
+         background-color: #2f8f9f;
+      }
+   }
+}

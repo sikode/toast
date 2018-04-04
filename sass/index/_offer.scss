@@ -1,0 +1,213 @@
+#offer {
+   padding-top: 90px;
+   padding-bottom: 80px;
+   @media screen and (max-width: 425px) {
+      padding-bottom: 30px;
+   }
+   .special {
+      max-width: 40%;
+      margin: auto;
+      padding-bottom: 100px;
+      @media screen and (max-width: 768px) {
+         max-width: 50%;
+      }
+      @media screen and (max-width: 425px) {
+         max-width: 85%;
+         padding-bottom: 50px;
+      }
+      @media screen and (max-width: 360px) {
+         max-width: 90%;
+      }
+      .title_section {
+         @media screen and (max-width: 425px) {
+            padding: 0 35px;
+         }
+         @media screen and (max-width: 375px) {
+            padding: 0 30px;
+         }
+      }
+      .hr-style {
+         @media screen and (max-width: 425px) {
+            margin-left: 35px;
+         }
+         @media screen and (max-width: 375px) {
+            margin-left: 30px;
+         }
+      }
+      .sub_title_section {
+         color: #171717;
+         letter-spacing: 1px;
+         @media screen and (max-width: 425px) {
+            margin-top: 50px;
+            margin-bottom: 60px;
+         }
+      }
+   }
+   .padding-offer {
+      @media screen and (max-width: 768px) {
+         padding-bottom: 40px;
+      }
+   }
+   .card-container-offer {
+      -webkit-perspective: 1500px;
+      -moz-perspective: 1500px;
+      -o-perspective: 1500px;
+      perspective: 1500px;
+      margin-bottom: 30px;
+      .card-offer {
+         position: relative;
+         .front-offer {
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -o-backface-visibility: hidden;
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $c-grey;
+            text-align: center;
+            z-index: 2;
+         }
+         .cover-offer {
+            height: 310px;
+            overflow: hidden;
+            position: relative;
+            @media screen and (max-width: 1200px) {
+               height: 258px;
+            }
+            &::after {
+               background-color: rgba(251, 113, 0, .45);
+               content: "";
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               z-index: 1;
+            }
+         }
+         .cover-offer-2 {
+            &::after {
+               background-color: rgba(55, 166, 185, .45) !important;
+            }
+         }
+         .cover-offer-3 {
+            &::after {
+               background-color: rgba(0, 0, 0, .45) !important;
+            }
+         }
+         .price-offer {
+            border-radius: 100px;
+            display: block;
+            width: 120px;
+            height: 120px;
+            margin: -370px auto 0;
+            position: relative;
+            z-index: 1;
+            background-color: $c-red;
+            color: $w;
+            @media screen and (max-width: 1200px) {
+               width: 100px;
+               height: 100px;
+               margin: -305px auto 0;
+            }
+            h2 {
+               font-size: 40px;
+               font-weight: 700;
+               display: inline-block;
+               margin-top: 25px;
+               letter-spacing: 2px;
+               @media screen and (max-width: 1200px) {
+                  font-size: 36px;
+                  margin-top: 18px;
+               }
+               @media screen and (max-width: 425px) {
+                  font-size: 35px;
+               }
+            }
+            p {
+               font-size: 16px;
+               font-weight: 500;
+               display: inline-block;
+               margin-top: 2px;
+               letter-spacing: .5px;
+            }
+         }
+         .content-offer {
+            padding: 10px 20px 20px;
+            position: relative;
+            z-index: 1;
+            color: $w;
+            .name-offer {
+               font-size: 32px;
+               font-weight: 700;
+               text-transform: uppercase;
+               line-height: 45px;
+               letter-spacing: 4px;
+               height: 100px;
+               margin: 30px 25px 0;
+               @media screen and (max-width: 1200px) {
+                  margin-top: 10px;
+               }
+            }
+            .time-offer {
+               font-size: 24px;
+               font-weight: 500;
+               letter-spacing: 3px;
+            }
+         }
+         .list-offer {
+            margin-top: 110px;
+            ul {
+               margin-bottom: 3.5rem;
+               padding: 0 10px 0 50px;
+               @media screen and (max-width: 1200px) {
+                  padding: 0 0 0 30px;
+               }
+               @media screen and (max-width: 768px) {
+                  padding: 0 0 0 40px;
+               }
+               @media screen and (max-width: 425px) {
+                  padding: 0 20px 0 60px;
+               }
+               @media screen and (max-width: 425px) {
+                  padding: 0 20px 0 50px;
+               }
+               li {
+                  letter-spacing: 4px;
+                  line-height: 35px;
+                  font-size: 20px;
+                  color: $c-red;
+                  p {
+                     color: $b;
+                     font-size: 16px;
+                  }
+               }
+            }
+         }
+         .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: $b;
+            color: $w;
+            font-weight: 500;
+            letter-spacing: 2px;
+            border-radius: 100px;
+            transition: all .3s ease-in-out;
+            &:hover,
+            &:active,
+            &:focus {
+               background-color: $c-grey;
+               border: 1px solid $b;
+               color: $b;
+            }
+         }
+      }
+   }
+   .card-container-offer,
+   .front-offer {
+      width: 100%;
+      height: 700px;
+      border-radius: 4px;
+   }
+}

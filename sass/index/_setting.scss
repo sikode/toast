@@ -1,0 +1,18 @@
+#setting {
+   position: absolute;
+   display: inline-block;
+   z-index: 999;
+   top: 175px;
+   right: 0px;
+   .btn {
+      font-size: 20px;
+      color: $b;
+      background-color: $w;
+      padding: 7px 15px;
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+   }
+   @media screen and (max-width:768px) {
+      display: none;
+   }
+}

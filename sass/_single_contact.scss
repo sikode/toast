@@ -1,0 +1,60 @@
+#single_contact {
+   background-color: #F5F5F5;
+   color: $b;
+   padding-top: 16px;
+   padding-bottom: 13px;
+   border-top: 7px solid rgb(55,166,185);
+   position: relative;
+   .sosmed {
+      .btn {
+         text-transform: initial;
+         display: inline-block;
+         padding: 9px 23px 5px;
+         margin-right: 30px;
+         background-color: $main-blue;
+         color: $w;
+         border-radius: 6px;
+         transition: all .3s ease-in-out;
+         &:hover,
+         &:active,
+         &:focus {
+            background-color: #2f8f9f;
+         }
+      }
+      .btn,
+      span {
+         font-size: 14px;
+      }
+      .fa {
+         font-size: 26px;
+      }
+      ul {
+         display: inline-block;
+         margin-bottom: 0;
+         margin-right: 0 !important;
+         width: 70%;
+         @media screen and (max-width: 1199px) {
+            width: 30%;
+         }
+         li {
+            display: inline-block;
+            margin-right: 15px;
+            a {
+               transition: all .3s ease-in-out;
+               &:hover,
+               &:active,
+               &:focus {
+                  color: $main-blue;
+               }
+            }
+         }
+      }
+   }
+   @media screen and (max-width:1199px) {
+      padding-top: 15px;
+      padding-bottom: 12px;
+   }
+   @media screen and (max-width:768px) {
+      display: none;
+   }
+}

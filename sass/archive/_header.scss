@@ -1,0 +1,55 @@
+#header {
+   background-image: url('../images/bg-slide-header.png');
+   background-size: 1700px;
+   background-repeat: no-repeat;
+   background-position: 50%;
+   height: 500px;
+   border-bottom: 5px solid rgba($color: $b, $alpha: .5);
+
+   @media screen and (max-width: 425px) {
+      background-size: cover;
+   }
+   @media screen and (max-width: 375px) {
+      height: 460px;
+   }
+   @media screen and (max-width: 360px) {
+      height: 435px;
+   }
+
+   .highlight {
+      background-color: rgba(0, 0, 0, 0.31);
+      height: 100%;
+   }
+
+   .hero_content {
+      text-align: center;
+      padding-top: 11rem;
+      @media screen and (max-width:425px) {
+         padding-top: 8rem;
+      }
+      @media screen and (max-width:360px) {
+         padding-top: 7rem;
+      }
+      h1 {
+         color: $w;
+         text-transform: uppercase;
+         margin-bottom: 1rem;
+         span {
+            color: $main-blue;
+            font-weight: 700;
+         }
+      }
+      p {
+         color: rgba($color: $w, $alpha: .7);
+         max-width: 69%;
+         margin: auto;
+         @media screen and (max-width: 1024px) {
+            max-width: 82%;
+         }
+         @media screen and (max-width: 768px) {
+            max-width: 95%;
+         }
+      }
+   }
+   
+}

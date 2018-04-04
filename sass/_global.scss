@@ -1,0 +1,65 @@
+body {
+    font-family: $font !important;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hr-style {
+    border-bottom: 3px solid $main-blue;
+    width: 100px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+// Section
+.title_section {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $c-title;
+    @media screen and (max-width: 425px) {
+        font-size: 35px;
+    }
+    @media screen and (max-width:375px) {
+        font-size: 31px;
+    }
+    @media screen and (max-width:360px) {
+        font-size: 28px;
+    }
+}
+
+.sub_title_section {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    @media screen and (max-width: 375px) {
+        font-size: 14px;
+    }
+    @media screen and (max-width:360px) {
+        font-size: 13px;
+    }
+}
+
+p {
+    @media screen and (max-width: 425px) {
+        font-size: 13px;
+    }
+    @media screen and (max-width:360px) {
+        font-size: 12px;
+    }
+}
+
+.clearfix {
+    &::before,
+    &::after {
+        content: '';
+        clear: both;
+    }
+    &::after {
+        display: table;
+    }
+}

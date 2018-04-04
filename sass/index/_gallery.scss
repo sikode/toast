@@ -1,0 +1,93 @@
+#gallery {
+   background-color: $c-grey;
+   height: 100%;
+   @media screen and (max-width: 1024px) {
+      height: 577px;
+   }
+   @media screen and (max-width: 768px) {
+      height: 100%;
+   }
+   .gallery_article {
+      .gallery_text {
+         max-width: 538px;
+         margin-left: auto;
+         padding-top: 200px;
+         padding-bottom: 200px;
+         @media screen and (max-width: 1200px) {
+            max-width: 449px;
+         }
+         @media screen and (max-width: 768px) {
+            max-width: 100%;
+            margin: 0 6rem;
+            padding-top: 120px;
+            padding-bottom: 120px;
+         }
+         @media screen and (max-width: 425px) {
+            margin: 0 1rem;
+         }
+         @media screen and (max-width: 375px) {
+            margin: 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+         }
+         .title_section {
+            @media screen and (max-width: 768px) {
+               padding: 0 110px;
+            }
+            @media screen and (max-width: 425px) {
+               padding: 0 50px;
+            }
+            @media screen and (max-width: 375px) {
+               padding: 0 40px;
+            }
+         }
+         .hr-style {
+            @media screen and (max-width: 768px) {
+               margin-left: 110px;
+            }
+            @media screen and (max-width: 425px) {
+               margin-left: 50px;
+            }
+            @media screen and (max-width: 375px) {
+               margin-left: 40px;
+            }
+         }
+         p {
+            letter-spacing: 1px;
+            @media screen and (max-width: 768px) {
+               margin: 45px 0;
+            }
+         }
+         .btn {
+            display: inline-block;
+            padding: 14px 35px;
+            margin: 0 10.5rem;
+            background-color: $b;
+            color: $w;
+            font-weight: 500;
+            letter-spacing: 2px;
+            border-radius: 100px;
+            transition: all .3s ease-in-out;
+            @media screen and (max-width: 1200px) {
+               margin: 0 9rem;
+            }
+            @media screen and (max-width: 768px) {
+               margin: 0 10.6rem;
+            }
+            @media screen and (max-width: 425px) {
+               margin: 0 6rem;
+            }
+            @media screen and (max-width: 375px) {
+               margin: 0 5.8rem;
+            }
+            &:hover,
+            &:active,
+            &:focus {
+               background-color: $c-grey;
+               border: 1px solid $b;
+               color: $b;
+            }
+         }
+      }
+   }
+}

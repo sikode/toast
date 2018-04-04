@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html amp lang="en">
+
+<head>
+   <title>Toast - Single Page</title>
+   <!-- Required Meta Tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Required AMP Standard -->
+   <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+   <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+   <!-- AMP Boilerplate -->
+   <style amp-boilerplate>
+      body {
+         -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+         animation: -amp-start 8s steps(1, end) 0s 1 normal both
+      }
+
+      @-webkit-keyframes -amp-start {
+         from {
+            visibility: hidden
+         }
+         to {
+            visibility: visible
+         }
+      }
+
+      @-moz-keyframes -amp-start {
+         from {
+            visibility: hidden
+         }
+         to {
+            visibility: visible
+         }
+      }
+
+      @-ms-keyframes -amp-start {
+         from {
+            visibility: hidden
+         }
+         to {
+            visibility: visible
+         }
+      }
+
+      @-o-keyframes -amp-start {
+         from {
+            visibility: hidden
+         }
+         to {
+            visibility: visible
+         }
+      }
+
+      @keyframes -amp-start {
+         from {
+            visibility: hidden
+         }
+         to {
+            visibility: visible
+         }
+      }
+   </style>
+   <noscript>
+      <style amp-boilerplate>
+         body {
+            -webkit-animation: none;
+            -moz-animation: none;
+            -ms-animation: none;
+            animation: none
+         }
+      </style>
+   </noscript>
+
+   <!-- AMP Component -->
+   <script custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js" async></script>
+   <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+
+   <!-- Quicksand - Google Font -->
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+   <!-- Styling -->
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/ampStyles.css">
+
+   <!-- FontAwesome -->
+   <link rel="stylesheet" href="fonts/css/font-awesome.css">
+
+</head>
+
+<body>
+
+   <section id="single_contact">
+      <div class="container">
+
+         <div class="sosmed d-flex align-items-center">
+            <a href="#" class="btn">Call Now</a>
+            <i class="fa fa-phone mr-2"></i>
+            <span>+628 77 1949 7070</span>
+
+            <ul class="d-flex justify-content-end mx-auto">
+               <li>
+                  <a href="#">
+                     <i class="fa fa-facebook"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <i class="fa fa-twitter"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <i class="fa fa-pinterest-p"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <i class="fa fa-google-plus"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                     <i class="fa fa-instagram"></i>
+                  </a>
+               </li>
+               <li class="mr-0">
+                  <a href="#">
+                     <i class="fa fa-youtube-play"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+
+      </div>
+   </section>
+
+   <div id="single_setting">
+      <a href="#" class="btn">
+         <i class="fa fa-cog"></i>
+      </a>
+   </div>
+
+   <section id="top_archive">
+      <nav class="navbar navbar-expand-lg pr-0 pl-0 navbar-dark">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <amp-img src="images/logo-toast.png" width="70" height="79.07" layout="fixed" class="my0 mx-auto " alt="Logo Brand"></amp-img>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+               aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">
+                        <span>Home Pages</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>About</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>Menu</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>Testimoni</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>Gallery</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>Story</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                        <span>Order</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link mr-0" href="#">
+                        <span>Contact</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+   </section>
+
+   <section id="single_jumbotron">
+      <div class="container">
+         <h2 class="title_section">Blogpost
+            <span>Default + Sidebar</span>
+         </h2>
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="#">Home</a>
+            </li>
+            <i class="fa fa-long-arrow-right"></i>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Simple Blog Post</a>
+            </li>
+         </ul>
+      </div>
+   </section>
+
+   <section id="page_content">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-lg-9 content-column">
+               <a href="#">
+                  <amp-img src="images/bg-slide-header.png" width="60" height="30" layout="responsive" class="hero-image" alt="Header Image"></amp-img>
+               </a>
+               <ul class="admin">
+                  <li class="pl-0">By admin</li>
+                  <li>
+                     <span>Promo</span>
+                  </li>
+                  <li>
+                     <span>Event</span>
+                  </li>
+                  <li class="pr-0">February 6, 2018</li>
+               </ul>
+               <span class="icon" style="color: #EE4844;">
+                  <i class="fa fa-heart"></i>&nbsp;5</span>
+               <span class="icon">
+                  <i class="fa fa-comment"></i>&nbsp;5</span>
+               <h3 class="my-4">Simple Blog Post</h3>
+               <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis autem voluptas laudantium fuga obcaecati
+                  maiores vero, sapiente dignissimos nemo assumenda neque atque consequatur mollitia beatae adipisci nesciunt!
+                  Aliquid, impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima ab, aspernatur voluptas
+                  id possimus officia, soluta voluptatibus accusamus numquam voluptate recusandae? Nisi soluta quas nemo
+                  quos labore, reprehenderit illo velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                  explicabo modi beatae, sint officiis repudiandae et eum aspernatur expedita impedit libero corrupti delectus,
+                  earum incidunt. Autem numquam fuga porro repellendus!</p>
+               <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis autem voluptas laudantium fuga obcaecati
+                  maiores vero, sapiente dignissimos nemo assumenda neque atque consequatur mollitia beatae adipisci nesciunt!
+                  Aliquid, impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima ab, aspernatur voluptas
+                  id possimus officia, soluta voluptatibus accusamus numquam voluptate recusandae? Nisi soluta quas nemo
+                  quos labore, reprehenderit illo velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
+                  amet atque, ab eveniet blanditiis quasi aspernatur facere cupiditate explicabo nostrum incidunt repellat
+                  quaerat sequi quisquam. Ducimus praesentium quo voluptas eos.</p>
+               <p class="mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia recusandae commodi saepe quidem porro nostrum
+                  sequi ipsa ipsam rem libero vitae molestiae magni at voluptate architecto, neque sit accusantium quia?
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quasi molestias vitae, doloribus ipsum
+                  deserunt? Adipisci suscipit perspiciatis sed. Quas tempora voluptatum dolore fugiat molestiae! Asperiores
+                  perspiciatis officiis quidem mollitia!</p>
+               <ul class="promo">
+                  <li class="mr-3">
+                     <a href="#">Promo</a>
+                  </li>
+                  <li>
+                     <a href="#">Dinner</a>
+                  </li>
+               </ul>
+               <ul class="social-icons">
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-facebook"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-pinterest-p"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-google-plus"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-youtube-play"></i>
+                     </a>
+                  </li>
+               </ul>
+               <div class="media about-author mt-5">
+                  <div class="author">
+                     <a href="#">
+                        <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="author-post mb-2" alt="Author Post Image"></amp-img>
+                     </a>
+                     <a href="#">
+                        <i class="fa fa-envelope"></i>
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h5 class="mt-0 mb-3">
+                        <span>Admin</span> / About Author</h5>
+                     <p class="mb-2">Cras sit amet nibh libero, in gravida nulla. Nulla vel ante sollicitudin. Cras purus odio, vestibulum
+                        in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                        congue felis in faucibus.</p>
+                     <a href="#">
+                        <i class="fa fa-angle-right"></i> More post by admin</a>
+                  </div>
+               </div>
+               <div class="related-post">
+                  <h3>
+                     <i class="fa fa-clone pr-3" style="color:#00DAFF;"></i>Related Post</h3>
+                  <a href="#" class="btn ml-3">
+                     <i class="fa fa-angle-right"></i>
+                  </a>
+                  <a href="#" class="btn">
+                     <i class="fa fa-angle-left"></i>
+                  </a>
+               </div>
+               <div class="mt-4">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-4 col-post">
+                        <div class="media">
+                           <a href="#">
+                              <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="author-post mr-3"
+                                 alt="Author Post Image"></amp-img>
+                           </a>
+                           <div class="media-body">
+                              <span class="post-title">
+                                 <a href="#">100% Width Sample</a>
+                              </span>
+                              <p>Lorem ipsum is very simply.</p>
+                              <span class="date">6 Jan 2018</span>
+                              <span class="icon" style="color: #EE4844;">
+                                 <i class="fa fa-heart"></i>&nbsp;5</span>
+                              <span class="icon">
+                                 <i class="fa fa-comment"></i>&nbsp;5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-post">
+                        <div class="media">
+                           <a href="#">
+                              <amp-img src="images/menu1.png" width="60" height="60" layout="fixed" class="author-post mr-3"
+                                 alt="Author Post Image"></amp-img>
+                           </a>
+                           <div class="media-body">
+                              <span class="post-title">
+                                 <a href="#">Single Post</a>
+                              </span>
+                              <p>Lorem ipsum is very simply.</p>
+                              <span class="date">6 Jan 2018</span>
+                              <span class="icon" style="color: #EE4844;">
+                                 <i class="fa fa-heart"></i>&nbsp;5</span>
+                              <span class="icon">
+                                 <i class="fa fa-comment"></i>&nbsp;5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-post pb-0">
+                        <div class="media">
+                           <a href="#">
+                              <amp-img src="images/menu4.png" width="60" height="60" layout="fixed" class="author-post mr-3"
+                                 alt="Author Post Image"></amp-img>
+                           </a>
+                           <div class="media-body">
+                              <span class="post-title">
+                                 <a href="#">Blog Post</a>
+                              </span>
+                              <p>Lorem ipsum is very simply.</p>
+                              <span class="date">6 Jan 2018</span>
+                              <span class="icon" style="color: #EE4844;">
+                                 <i class="fa fa-heart"></i>&nbsp;5</span>
+                              <span class="icon">
+                                 <i class="fa fa-comment"></i>&nbsp;5</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <h3 class="mt-5">
+                  <i class="fa fa-align-left pr-3" style="color:#C9C9C9;"></i>Related Comments
+                  <span style="font-weight:400;">(6)</span>
+               </h3>
+               <div class="comment mt-5">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias. Nulla illum corporis mollitia
+                     blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi error quibusdam
+                     sed.</p>
+               </div>
+               <div class="comment reply mt-4">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias.
+                     <span>Nulla illum corporis mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, corporis
+                        mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi
+                        error quibusdam sed.</span>
+                  </p>
+               </div>
+               <div class="back-box"></div>
+               <div class="comment mt-4">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias. Nulla illum corporis mollitia
+                     blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi error quibusdam
+                     sed.</p>
+               </div>
+               <div class="comment reply mt-4">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias.
+                     <span>Nulla illum corporis mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, corporis
+                        mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi
+                        error quibusdam sed.</span>
+                  </p>
+               </div>
+               <div class="back-box"></div>
+               <div class="comment mt-4">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias. Nulla illum corporis mollitia
+                     blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi error quibusdam
+                     sed.</p>
+               </div>
+               <div class="comment reply mt-4">
+                  <div class="media">
+                     <div class="commenter">
+                        <a href="#">
+                           <amp-img src="images/testimoni.png" width="60" height="60" layout="fixed" class="commenter-profile mr-4"
+                              alt="Author Post Image"></amp-img>
+                        </a>
+                     </div>
+                     <div class="media-body mt-2">
+                        <h5 class="mt-0">
+                           <a href="#">Jhonson Edinson</a>
+                        </h5>
+                        <p>26 Jan 2018 at 14.00 AM</p>
+                     </div>
+                     <a href="#" class="btn mt-2">Reply</a>
+                  </div>
+                  <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, alias.
+                     <span>Nulla illum corporis mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, corporis
+                        mollitia blanditiis consequuntur amet quo ipsum cupiditate maxime eos sint, numquam ut qui eligendi
+                        error quibusdam sed.</span>
+                  </p>
+               </div>
+               <div class="back-box" style="margin-bottom: 4rem;"></div>
+               <h3 class="mt-5">
+                  <i class="fa fa-comments-o pr-3" style="color:#FF7A7A;"></i>Leave
+                  <span style="font-weight:400;">A Comment</span>
+               </h3>
+               <form>
+                  <div class="form-group">
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message *"></textarea>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-4 col-md-4 col-input">
+                        <input type="name" class="form-control" placeholder="Name*&#9;&#9;&#9;&#9;&#9;&#61447;">
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-input">
+                        <input type="mail" class="form-control" placeholder="Main*&#9;&#9;&#9;&#9;&#9;&#xf0e0;">
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-input">
+                        <input type="website" class="form-control" placeholder="Website&#9;&#9;&#9;&#9;&#xf0ac;">
+                     </div>
+                  </div>
+               </form>
+               <a href="#" class="btn btn-send">Send Comment</a>
+
+            </div>
+
+            <aside id="sidebar" class="col-lg-3 side-content" role="complementary">
+               <div id="primary" class="widget-area">
+                  <ul class="widget-content">
+
+                     <!-- Widget Recent Post -->
+                     <li id="recent-posts-2" class="widget-container widget_recent_entries" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mb-4">Recent Posts
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <ul>
+                           <li>
+                              <a href="http://localhost:8000/special-breakfast/" target="_self">
+                                 <!-- <amp-img src="images/menu1.png" width="60" height="60" layout="fixed" class="post-image" alt="Post Image"></amp-img> -->
+                                 <img src="images/menu1.png" alt="Post Image" class="post-image">
+                                 <h6>Special Breakfast</h6>
+                                 <p>Lorem ipsum is simply.</p>
+                                 <span class="date">6 Jan 2018</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/wheat-bread/" target="_self">
+                                 <img src="images/menu6.png" alt="Post Image" class="post-image">
+                                 <h6>Wheat Bread</h6>
+                                 <p>Lorem ipsum is simply.</p>
+                                 <span class="date">6 Jan 2018</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/special-breakfast/" target="_self">
+                                 <img src="images/menu1.png" alt="Post Image" class="post-image">
+                                 <h6>Special Breakfast</h6>
+                                 <p>Lorem ipsum is simply.</p>
+                                 <span class="date">6 Jan 2018</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <!-- Widget Search -->
+                     <li id="search-2" class="widget-container widget_search" title="Shift-click to edit this widget.">
+                        <form role="search" method="get" id="searchform" class="searchform" action="http://localhost:8000/" target="_self">
+                           <input type="hidden" name="customize_messenger_channel" value="preview-7">
+                           <input type="hidden" name="customize_theme" value="blankslate">
+                           <input type="hidden" name="customize_autosaved" value="on">
+                           <input type="hidden" name="customize_changeset_uuid" value="b91bc659-539b-4ff2-90dc-9ccbda0367b8">
+                           <div>
+                              <label class="screen-reader-text" for="s">Search for:</label>
+                              <input type="text" name="s" id="s">
+                              <input type="submit" id="searchsubmit" value="Search">
+                           </div>
+                        </form>
+                     </li>
+
+                     <!-- Widget Tags -->
+                     <li id="tag_cloud-3" class="widget-container widget_tag_cloud" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mt-5 mb-4">Tags
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <div class="tagcloud">
+                           <a href="http://localhost:8000/tag/appetizer/" class="tag-cloud-link tag-link-32 tag-link-position-1" aria-label="appetizer (1 item)"
+                              target="_self">Appetizer</a>
+                           <a href="http://localhost:8000/tag/avocado/" class="tag-cloud-link tag-link-33 tag-link-position-2" aria-label="avocado (1 item)"
+                              target="_self">Avocado</a>
+                           <a href="http://localhost:8000/tag/bread/" class="tag-cloud-link tag-link-24  tag-link-position-3" aria-label="bread (4 items)"
+                              target="_self">Bread</a>
+                           <a href="http://localhost:8000/tag/breakfast/" class="tag-cloud-link tag-link-20 tag-link-position-4" aria-label="breakfast (1 item)"
+                              target="_self">Breakfast</a>
+                           <a href="http://localhost:8000/tag/dinner/" class="tag-cloud-link tag-link-23 tag-link-position-5" aria-label="dinner (1 item)"
+                              target="_self">Dinner</a>
+                        </div>
+                     </li>
+
+                     <!-- Widget Recent Comment -->
+                     <li id="recent-comments-2" class="widget-container widget_recent_comments" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mt-5 mb-4">Recent Comments
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <ul id="recentcomments">
+                           <li class="recentcomments">
+                              <i class="fa fa-comment"></i>
+                              <p>
+                                 <span class="comment-author-link">admin</span> on
+                                 <a href="http://localhost:8000/hello-world-2/" target="_self" class="different-color">Hello world!</a>
+                              </p>
+                           </li>
+                           <li class="recentcomments">
+                              <i class="fa fa-comment"></i>
+                              <p>
+                                 <span class="comment-author-link">
+                                    <a href="https://wordpress.org/" rel="external nofollow" class="url customize-unpreviewable">a wordpress commenter</a>
+                                 </span>on
+                                 <a href="http://localhost:8000/hello-world-2/" target="_self" class="different-color">Hello world!</a>
+                              </p>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <!-- Widget Archive -->
+                     <li id="archives-2" class="widget-container widget_archive" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mt-5 mb-4">Archives
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <ul>
+                           <li>
+                              <a href="http://localhost:8000/2018/02/" target="_self">Maret 2018</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/2017/11/" target="_self">February 2018</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/2018/02/" target="_self">January 2018</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/2017/11/" target="_self">December 2017</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/2018/02/" target="_self">November 2017</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/2017/11/" target="_self">October 2017</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <!-- Widget Meta -->
+                     <li id="meta-2" class="widget-container widget_meta" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mt-5 mb-4">Meta
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <ul>
+                           <li>
+                              <a href="http://localhost:8000/wp-admin/" class="customize-unpreviewable"> Site Admin</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/wp-login.php?action=logout&amp;_wpnonce=850a3f682a" class="customize-unpreviewable"> Log out</a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/feed/" target="_self"> Entries
+                                 <abbr title="Really Simple Syndication">RSS</abbr>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="http://localhost:8000/comments/feed/" target="_self"> Comments
+                                 <abbr title="Really Simple Syndication">RSS</abbr>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform." class="customize-unpreviewable">
+                              WordPress.org</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                     <!-- Widget Categories -->
+                     <li id="categories-2" class="widget-container widget_categories" title="Shift-click to edit this widget.">
+                        <h5 class="widget-title mt-5 mb-4">Categories
+                           <div class="triangle-bottomleft"></div>
+                        </h5>
+                        <ul>
+                           <li class="cat-item cat-item-11">
+                              <a href="http://localhost:8000/category/apetizer/" target="_self"> Apetizer</a>
+                           </li>
+                           <li class="cat-item cat-item-13">
+                              <a href="http://localhost:8000/category/avocado/" target="_self"> Avocado</a>
+                           </li>
+                           <li class="cat-item cat-item-12">
+                              <a href="http://localhost:8000/category/bread/" target="_self"> Bread</a>
+                           </li>
+                           <li class="cat-item cat-item-14">
+                              <a href="http://localhost:8000/category/sandwich/" target="_self"> Sandwich</a>
+                           </li>
+                           <li class="cat-item cat-item-19">
+                              <a href="http://localhost:8000/category/special/" target="_self"> Special</a>
+                           </li>
+                        </ul>
+                     </li>
+
+                  </ul>
+
+               </div>
+            </aside>
+
+
+         </div>
+      </div>
+   </section>
+
+   <section id="info">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-lg-3 col-sm-4 col-12 content">
+               <h5>Contact Us</h5>
+               <div class="author clearfix">
+                  <i class="fa fa-map-marker"></i>
+                  <p>Address:
+                     <br>Lorem ipsum is simply, Jalan Pancoran.</p>
+               </div>
+               <div class="contact-center">
+                  <div class="contact-us">
+                     <i class="fa fa-headphones"></i>
+                     <p>Call:
+                        <span>
+                           <a href="#">+628 77 1909 788</a>
+                        </span>
+                     </p>
+                  </div>
+                  <div class="contact-us">
+                     <i class="fa fa-envelope"></i>
+                     <p>Mail:
+                        <span>
+                           <a href="#">themesdang@gmail.com</a>
+                        </span>
+                     </p>
+                  </div>
+                  <div class="contact-us">
+                     <i class="fa fa-globe"></i>
+                     <p>Website:
+                        <span>
+                           <a href="#">themesdang.com</a>
+                        </span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-12 content">
+               <h5>Recent Posts</h5>
+               <div class="posts">
+                  <a href="#">
+                     <amp-img src="images/menu1.png" width="60" height="60" layout="fixed" class="post-image" alt="Post Image"></amp-img>
+                  </a>
+                  <p>
+                     <span class="post-title">
+                        <a href="#">Single Post</a>
+                     </span>
+                     <br>Lorem ipsum is simply.
+                     <br>
+                     <span class="date">6 Jan 2018</span>
+                  </p>
+               </div>
+               <div class="posts no-border-bottom">
+                  <a href="#">
+                     <amp-img src="images/menu4.png" width="60" height="60" layout="fixed" class="post-image" alt="Post Image"></amp-img>
+                  </a>
+                  <p>
+                     <span class="post-title">
+                        <a href="#">Single Post</a>
+                     </span>
+                     <br>Lorem ipsum is simply.
+                     <br>
+                     <span class="date">6 Jan 2018</span>
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-12 content">
+               <h5>Email Us</h5>
+               <form>
+                  <div class="form-group">
+                     <input type="name" class="form-control" id="inputName" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                     <input type="email" class="form-control" id="inputPhone" placeholder="Your Email">
+                  </div>
+                  <div class="form-group">
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn">Send</button>
+               </form>
+            </div>
+            <div class="col-lg-3 content content-gone">
+               <h5>Latest Project</h5>
+               <div class="row project-image">
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu8.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu5.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu6.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu8.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu5.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+                  <div class="col-4 pb-3">
+                     <a href="#">
+                        <amp-img src="images/menu6.png" width="75" height="75" layout="fixed" class="post-image" alt="Latest Project Image"></amp-img>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+   <footer id="footer404" style="background-color:#191919; border-color:#8C8C8D;">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-md-3 col-12 content">
+               <p>@Copyright
+                  <span style="color:#37A6B9;">Toast Theme 2018</span>
+               </p>
+            </div>
+
+            <div class="col-md-6 col-0 content middle d-flex justify-content-center">
+               <ul>
+                  <li>
+                     <a href="#">Support</a>
+                  </li>
+                  <li>
+                     <a href="#">Contact US</a>
+                  </li>
+                  <li>
+                     <a href="#">Disclaimer</a>
+                  </li>
+                  <li class="no-border">
+                     <a href="#">Add more</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="col-md-3 col-12 content d-flex justify-content-end">
+               <ul>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-facebook-f"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-pinterest-p"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-google-plus"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-instagram"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="fa fa-youtube-play"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery.js"></script>
+   <script src="js/popper.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>

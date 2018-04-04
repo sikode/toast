@@ -1,0 +1,99 @@
+#contact_info {
+   .maps {
+      background-color: $c-grey;
+      .google-maps {
+         @media screen and (max-width: 1200px) {
+            height: 810px;
+         }
+      }
+   }
+   .contact {
+      padding-top: 90px;
+      padding-bottom: 80px;
+      padding-left: 100px;
+      background-color: $b;
+      @media screen and (max-width: 1024px) {
+         padding-left: 50px;
+      }
+      @media screen and (max-width:768px) {
+         padding-left: 50px;
+         padding-right: 50px;
+      }
+      @media screen and (max-width:425px) {
+         padding-left: 0;
+         padding-right: 0;
+      }
+      .content {
+         max-width: 70%;
+         @media screen and (max-width: 1200px) {
+            max-width: 100%;
+         }
+         @media screen and (max-width:768px) {
+            text-align: center;
+         }
+         h2 {
+            color: $w;
+         }
+         .hr-style {
+            margin-bottom: 45px;
+            @media screen and (max-width: 768px) {
+               margin-left: -145px;
+            }
+            @media screen and (max-width:425px) {
+               margin-left: -115px;
+            }
+            @media screen and (max-width:375px) {
+               margin-left: -95px;
+            }
+            @media screen and (max-width:360px) {
+               margin-left: -80px;
+            }
+         }
+         h4 {
+            color: $main-blue;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 50px;
+            margin-bottom: 15px;
+         }
+         p {
+            color: $w;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            @media screen and (max-width: 425px) {
+               font-size: 30px;
+            }
+            @media screen and (max-width:375px) {
+               font-size: 26px;
+            }
+         }
+         .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: $main-blue;
+            color: $w;
+            font-size: 30px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-top: 60px;
+            font-weight: 700;
+            border-radius: 100px;
+            transition: all .3s ease-in-out;
+            @media screen and (max-width: 425px) {
+               font-size: 26px;
+            }
+            @media screen and (max-width:375px) {
+               font-size: 22px;
+            }
+            &:hover,
+            &:active,
+            &:focus {
+               background-color: #2f8f9f;
+            }
+         }
+      }
+   }
+}

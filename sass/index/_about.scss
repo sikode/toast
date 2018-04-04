@@ -1,0 +1,67 @@
+#about {
+   background-image: url('../images/layer1.jpg');
+   background-size: 700px;
+   background-repeat: no-repeat;
+   background-position-x: 0;
+   margin-top: 222px;
+   height: 512px;
+   padding-top: 90px;
+   padding-bottom: 70px;
+   @media screen and (max-width: 1024px) {
+      margin-top: 528px;
+   }
+   @media screen and (max-width:768px) {
+      margin-top: 310px;
+      padding-top: 38px;
+      padding-bottom: 0;
+   }
+   @media screen and (max-width:425px) {
+      background-size: 500px;
+      height: 370px;
+      margin-top: 560px;
+   }
+   .isi_about {
+      max-width: 50%;
+      margin-left: auto;
+      @media screen and (max-width: 425px) {
+         max-width: 100%;
+         margin-top: -395px;
+         .mobile-style {
+            max-width: 75%;
+            margin: auto;
+            .sub_title_section {
+               text-align: center;
+            }
+         }
+      }
+      p {
+         letter-spacing: 1px;
+         @media screen and (max-width: 425px) {
+            padding: 0px 20px;
+         }
+         @media screen and (max-width:375px) {
+            font-size: 13px;
+         }
+      }
+      .btn {
+         display: inline-block;
+         letter-spacing: 4px;
+         text-transform: uppercase;
+         margin-top: 50px;
+         padding: 15px 50px;
+         background-color: $main-blue;
+         color: $w;
+         font-weight: 700;
+         border-radius: 100px;
+         transition: all .3s ease-in-out;
+         @media screen and (max-width: 425px) {
+            display: none;
+         }
+         &:hover,
+         &:active,
+         &:focus {
+            background-color: #2f8f9f;
+         }
+      }
+   }
+}
